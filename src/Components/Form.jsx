@@ -15,8 +15,6 @@ const Form = () => {
     }
   };
 
-  const evaluar = () => {};
-
   return (
     <div>
       {isFilled ? (
@@ -37,7 +35,7 @@ const Form = () => {
               <div className="row my-5">
                 <div className="col-6">
                   <input
-                    class="form-control text-center"
+                    className="form-control text-center"
                     id="1"
                     type="text"
                     placeholder="Player 1 username"
@@ -45,7 +43,7 @@ const Form = () => {
                 </div>
                 <div className="col-6">
                   <input
-                    class="form-control text-center"
+                    className="form-control text-center"
                     id="2"
                     type="text"
                     placeholder="Player 2 username"

@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Form from "./Components/Form.jsx";
-import Game from "./Components/Game.jsx";
 
 function App() {
   /* return <div className="App">{isFilled ? <Game /> : <Form />}</div>; */
